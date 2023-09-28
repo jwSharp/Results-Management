@@ -1,0 +1,10 @@
+#divider {
+    align-items: center;
+    justify-content: center;
+}
+
+#divider img {
+    height: 2%;
+    width: 2%;
+    padding: .5%;
+}
