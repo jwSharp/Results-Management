@@ -64,14 +64,16 @@ nav ul {
 }
 
 nav li {
-    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 nav li a {
     size: 20px;
     color: white;
     text-decoration: none;
-    onMouseOver:"doRollover(this, 'transparent', '#ffffff');" onMouseOut="doRollover(this, 'transparent', 'white')"
+
+    word-wrap: break-word;
 }
 
 nav li a:link {
@@ -91,7 +93,7 @@ nav li img {
 
 
 main {
-    width: 90%;
+    flex-grow: 1;
 }
 
 /* ---------------------------------- */
